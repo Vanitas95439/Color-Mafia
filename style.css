@@ -144,3 +144,27 @@ ol {
     box-shadow: 0;
   }
 }
+
+@media screen and (max-width: 570px) {
+  body {
+    font-size: 1.25em;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  body {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  body {
+    font-size: 0.75em;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  body {
+    font-size: 0.5em;
+  }
+}
