@@ -104,17 +104,16 @@ ol {
 #phone-colors-cards {
   display: none;
 }
-@media screen and (max-width: 1200px) {
-  body {
-    font-size: 3em;
-  }
 
+@media screen and (max-width: 1200px) {
   #header {
     position: inherit;
   }
 
   #rules-container {
     width: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
   }
 
   #colors-cards {
