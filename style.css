@@ -101,13 +101,13 @@ ol {
   color: rgba(255, 255, 255, 0.3);
 }
 
-#phone-colors-cards {
-  display: none;
-}
-
 @media screen and (max-width: 1200px) {
   #header {
     position: inherit;
+  }
+
+  #colors-cards {
+    overflow-x: auto;
   }
 
   #rules-container {
@@ -116,25 +116,6 @@ ol {
     padding-right: 1em;
   }
 
-  #colors-cards {
-    display: none;
-  }
-  #phone-colors-cards {
-    display: block;
-    ul {
-      width: 8em;
-    }
-    #emo-list {
-      width: 15em;
-      list-style-type: none;
-      li::before {
-        display: inline-block;
-        content: "—";
-        text-align: center;
-        width: 4em;
-      }
-    }
-  }
   #footer {
     padding-top: 0.5em;
     padding-bottom: 1em;
@@ -142,29 +123,5 @@ ol {
   #rules-container {
     border-radius: 0;
     box-shadow: 0;
-  }
-}
-
-@media screen and (max-width: 570px) {
-  body {
-    font-size: 1.25em;
-  }
-}
-
-@media screen and (max-width: 470px) {
-  body {
-    font-size: 1em;
-  }
-}
-
-@media screen and (max-width: 380px) {
-  body {
-    font-size: 0.75em;
-  }
-}
-
-@media screen and (max-width: 290px) {
-  body {
-    font-size: 0.5em;
   }
 }
